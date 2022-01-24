@@ -15,7 +15,7 @@ implementation 'io.github.rcvaram:NullUtil:1.0'
 ```
 
 
-## Information About the Depedency
+## Information
 
 1. NullUtil.executeViaNullSafer method will execute the given function on Non-Null Values and, when the value is null It will return Null instead of executing the function.
 2. NullUtil.executeExecutorOrDefault method will execute the given function on Non-Null Values and, If the value is null, It will return the given default value.
