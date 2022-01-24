@@ -1,18 +1,21 @@
 https://search.maven.org/artifact/io.github.rcvaram/NullUtil/1.0/jar
 
-<h4>Maven Depedency</h4>
-
+### Maven Depedency
+```
 <dependency>
    <groupId>io.github.rcvaram</groupId
    <artifactId>NullUtil</artifactId>
    <version>1.0</version>
 </dependency>
-<h4> Gradle Depedency </h4>
+```
+
+### Gradle Depedency 
+```
 implementation 'io.github.rcvaram:NullUtil:1.0'
+```
 
 
-
-<h3>Information About the Depedency </h3>
+## Information About the Depedency
 
 1. NullUtil.executeViaNullSafer method will execute the given function on Non-Null Values and, when the value is null It will return Null instead of executing the function.
 2. NullUtil.executeExecutorOrDefault method will execute the given function on Non-Null Values and, If the value is null, It will return the given default value.
